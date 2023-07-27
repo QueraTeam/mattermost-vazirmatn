@@ -1,0 +1,27 @@
+@font-face {
+  font-family: VazirmatnNL;
+  src: url("/plugins/ir.quera.mattermost-vazirmatn/public/fonts/vazirmatn-v33.003/Vazirmatn-NL[wght].woff2") format('woff2 supports variations'),
+       url("/plugins/ir.quera.mattermost-vazirmatn/public/fonts/vazirmatn-v33.003/Vazirmatn-NL[wght].woff2") format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Change font for messages and text inputs */
+p,
+.post p, .post-message__text,
+.post-message__text h1,
+.post-message__text h2,
+.post-message__text h3,
+.post-message__text h4,
+.post-message__text h5,
+.post-message__text h6,
+.channel-header__info .channel-header__description,
+.channel-header .heading,
+.post .post__header .col__name .user-popover,
+.post .post__link .theme,
+#post_textbox, #edit_textbox, #reply_textbox, #searchBox,
+.SidebarChannelLinkLabel
+{
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
