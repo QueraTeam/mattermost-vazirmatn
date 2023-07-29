@@ -12,9 +12,7 @@
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+0870-089F, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/base/_typography.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/base/_typography.scss */
 body, .app__body.font--open_sans {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
@@ -22,23 +20,17 @@ h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/routes/_statistics.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/routes/_statistics.scss */
 .team_statistics__message {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/components/_post.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/components/_post.scss */
 .post-body__footer {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-right.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-right.scss */
 .sidebar--right .sidebar--right__title {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
@@ -46,9 +38,7 @@ h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_headers.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_headers.scss */
 .channel-header .heading, .channel-intro .channel-intro-profile .user-popover, .team__header .team__name  {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
@@ -56,9 +46,7 @@ h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
-/**
- * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-left.scss
- */
+/* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-left.scss */
 #SidebarContainer h1, #SidebarContainer h2, #SidebarContainer h3 {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
