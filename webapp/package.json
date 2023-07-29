@@ -1,7 +1,7 @@
 {
   "name": "mattermost-vazirmatn",
-  "version": "1.0.0",
-  "description": "This plugin changes Mattermost font to Vazirmatn.",
+  "version": "1.0.1",
+  "description": "Changes Mattermost font to Vazirmatn.",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode=production",

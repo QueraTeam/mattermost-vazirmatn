@@ -5,23 +5,60 @@
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+  /**
+   * Only apply to arabic script.
+   * https://en.wikipedia.org/wiki/Arabic_script_in_Unicode
+   */
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+0870-089F, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 
-/* Change font for messages and text inputs */
-p,
-.post p, .post-message__text,
-.post-message__text h1,
-.post-message__text h2,
-.post-message__text h3,
-.post-message__text h4,
-.post-message__text h5,
-.post-message__text h6,
-.channel-header__info .channel-header__description,
-.channel-header .heading,
-.post .post__header .col__name .user-popover,
-.post .post__link .theme,
-#post_textbox, #edit_textbox, #reply_textbox, #searchBox,
-.SidebarChannelLinkLabel
-{
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/base/_typography.scss
+ */
+body, .app__body.font--open_sans {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
+    font-family: VazirmatnNL, Metropolis, sans-serif !important;
+}
+
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/routes/_statistics.scss
+ */
+.team_statistics__message {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/components/_post.scss
+ */
+.post-body__footer {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-right.scss
+ */
+.sidebar--right .sidebar--right__title {
+    font-family: VazirmatnNL, Metropolis, sans-serif !important;
+}
+.sidebar--right .sidebar--right__title__channel, .sidebar--right .sidebar--right__title__subtitle {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_headers.scss
+ */
+.channel-header .heading, .channel-intro .channel-intro-profile .user-popover, .team__header .team__name  {
+    font-family: VazirmatnNL, Metropolis, sans-serif !important;
+}
+.app__body .channel-header__links {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+/**
+ * https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-left.scss
+ */
+#SidebarContainer h1, #SidebarContainer h2, #SidebarContainer h3 {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }

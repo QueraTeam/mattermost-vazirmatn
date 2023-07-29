@@ -7,10 +7,9 @@ This repository is based on
 
 ## Installation
 
-Download the plugin file (`ir.quera.mattermost-vazirmatn-*.tar.gz`) from
+Download the plugin file (`ir.quera.mattermost-vazirmatn-*.tar.gz`) from the
 [Releases](https://github.com/QueraTeam/mattermost-vazirmatn/releases)
-page and upload to your Mattermost
-server via **System Console**.
+page and upload to your Mattermost  server via **System Console**.
 
 ## Other Plugins
 
