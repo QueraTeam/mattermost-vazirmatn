@@ -5,9 +5,11 @@ class MattermostVazirmatnPlugin {
   // eslint-disable-next-line class-methods-use-this
   initialize(registry, store) {
     const state = store.getState();
-    const siteURL = state?.entities?.general?.config?.SiteURL || state?.entities?.admin?.config?.ServiceSettings?.SiteURL || '';
+    const siteURL = (
+      state?.entities?.general?.config?.SiteURL || state?.entities?.admin?.config?.ServiceSettings?.SiteURL || ''
+    ).replace(/\/$/, '');
 
-    console.log('initializing mattermost-vazirmatn plugin. SiteURL:', siteURL);
+    console.log('Initializing mattermost-vazirmatn plugin. SiteURL:', siteURL);
 
     // Load VazirmatnNL font face
     const fontURL = `${siteURL}/plugins/${manifest.id}/public/fonts/vazirmatn-v33.003/Vazirmatn-NL[wght].woff2`;
