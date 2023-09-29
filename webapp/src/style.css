@@ -1,17 +1,3 @@
-@font-face {
-  font-family: VazirmatnNL;
-  src: url("/plugins/ir.quera.mattermost-vazirmatn/public/fonts/vazirmatn-v33.003/Vazirmatn-NL[wght].woff2") format('woff2 supports variations'),
-       url("/plugins/ir.quera.mattermost-vazirmatn/public/fonts/vazirmatn-v33.003/Vazirmatn-NL[wght].woff2") format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-  /**
-   * Only apply to arabic script.
-   * https://en.wikipedia.org/wiki/Arabic_script_in_Unicode
-   */
-  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+0870-089F, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
-}
-
 /* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/base/_typography.scss */
 body, .app__body.font--open_sans {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;

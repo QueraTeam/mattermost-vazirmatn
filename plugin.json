@@ -2,7 +2,7 @@
     "id": "ir.quera.mattermost-vazirmatn",
     "name": "Mattermost Vazirmatn",
     "description": "Changes Mattermost font to Vazirmatn.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "min_server_version": "5.12.0",
     "webapp": {
         "bundle_path": "webapp/dist/main.js"
