@@ -1,8 +1,27 @@
+/* apply to all elements */
+* {
+    font-family: VazirmatnNL, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
 /* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/base/_typography.scss */
-body, .app__body.font--open_sans {
+html,
+body,
+.app__body.font--open_sans {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
-h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.app__body h1,
+.app__body h2,
+.app__body h3,
+.app__body h4,
+.app__body h5,
+.app__body h6 {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
 
@@ -20,19 +39,509 @@ h1, h2, h3, .app__body h1, .app__body h2, .app__body h3 {
 .sidebar--right .sidebar--right__title {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
-.sidebar--right .sidebar--right__title__channel, .sidebar--right .sidebar--right__title__subtitle {
+
+.sidebar--right .sidebar--right__title__channel,
+.sidebar--right .sidebar--right__title__subtitle {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
 /* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_headers.scss */
-.channel-header .heading, .channel-intro .channel-intro-profile .user-popover, .team__header .team__name  {
+.channel-header .heading,
+.channel-intro .channel-intro-profile .user-popover,
+.team__header .team__name {
     font-family: VazirmatnNL, Metropolis, sans-serif !important;
 }
-.app__body .channel-header__links {
+
+.channel-header__links {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
 
 /* https://github.com/mattermost/mattermost/blob/master/webapp/channels/src/sass/layout/_sidebar-left.scss */
-#SidebarContainer h1, #SidebarContainer h2, #SidebarContainer h3 {
+#SidebarContainer h1,
+#SidebarContainer h2,
+#SidebarContainer h3 {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.app__body,
+.app__body * {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+p,
+span,
+div,
+section,
+article {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+button,
+.btn,
+.btn-default,
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-warning,
+.btn-success,
+.btn-info,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+input,
+textarea,
+select,
+.form-control,
+.form-group,
+.input-group {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+label,
+.label {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+nav,
+.navbar,
+.nav,
+.nav-item,
+.nav-link {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.dropdown-menu,
+.dropdown-item,
+.menu,
+.context-menu {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.nav-tabs,
+.nav-tabs .nav-link,
+.tab-content,
+.tab-pane,
+.tabs,
+.tab {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.sidebar,
+.sidebar-content,
+.sidebar-header,
+.sidebar-item,
+#SidebarContainer,
+#SidebarContainer *,
+#SidebarContainer h1,
+#SidebarContainer h2,
+#SidebarContainer h3 {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.sidebar--right,
+.sidebar--right *,
+.sidebar--right__title,
+.sidebar--right__title__channel,
+.sidebar--right__title__subtitle {
+    font-family: VazirmatnNL, Metropolis, sans-serif !important;
+}
+
+.channel-header,
+.channel-header *,
+.channel-header .heading,
+.channel-intro,
+.channel-intro-profile,
+.user-popover,
+.team__header,
+.team__header *,
+.team__name,
+.app__body .channel-header__links {
+    font-family: VazirmatnNL, Metropolis, sans-serif !important;
+}
+
+.post-body__footer,
+.post,
+.post-row,
+.post-message,
+.message {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.mention,
+.user-mention,
+.user-profile,
+.user-card,
+.user-popover {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.team_statistics__message,
+.info-box {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.modal,
+.modal-content,
+.modal-body,
+.modal-header,
+.modal-footer,
+.modal-title,
+.modal-dialog,
+.modal-header .close,
+.backdrop,
+.dialog,
+.popup {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.ReactModal__Content,
+.ReactModal__Overlay,
+.ReactModalPortal {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+[role="dialog"],
+[role="alertdialog"],
+[role="menu"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.alert,
+.alert-info,
+.alert-success,
+.alert-warning,
+.alert-danger,
+.alert-primary,
+.alert-secondary,
+.alert-light,
+.alert-dark {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+.notification,
+.toast,
+.toast-message,
+.notification-message,
+.notification-box,
+.toast-container,
+.notification-container,
+#notifications,
+[class*="notification"],
+[class*="toast"],
+[class*="notify"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.banner,
+.banner-content {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+
+.popover,
+.popover-content,
+.popover-title,
+.popover-body,
+.tooltip,
+.tooltip-inner,
+.bs-tooltip-top,
+.bs-tooltip-bottom,
+.bs-tooltip-left,
+.bs-tooltip-right {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+
+.card,
+.card-header,
+.card-body,
+.card-footer,
+.card-title,
+.card-subtitle,
+.container,
+.container-fluid,
+.panel,
+.panel-body,
+.panel-heading,
+.panel-footer,
+.well,
+.jumbotron,
+.box {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+li,
+ul,
+ol,
+.list,
+.list-group,
+.list-group-item,
+.list-item {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+
+table,
+thead,
+tbody,
+tfoot,
+th,
+td,
+tr,
+.table,
+.table-header,
+.table-body {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+
+.settings,
+.admin-panel,
+.settings-modal,
+.admin-console,
+.settings-content,
+.admin-content,
+.settings-page,
+.settings-item,
+.settings-group,
+.admin-view,
+.admin-section {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.search,
+.search-box,
+.search-bar,
+.search-input,
+.search-results,
+.search-container,
+[class*="search"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.badge,
+.label,
+.tag,
+.badge-primary,
+.badge-secondary,
+.badge-success,
+.badge-danger,
+.badge-warning,
+.badge-info,
+[class*="badge"],
+[class*="tag"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.breadcrumb,
+.breadcrumb-item {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.pagination,
+.page-link,
+.page-item {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.progress,
+.progress-bar,
+.spinner,
+.loading,
+[class*="loading"],
+[class*="spinner"] {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.dropdown,
+.dropdown-toggle,
+.dropdown-menu,
+.dropdown-item,
+select,
+.select-box,
+.select-control {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+[dir="rtl"],
+[lang="fa"],
+[lang="ar"],
+.rtl {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+code,
+pre,
+.code-block,
+.hljs,
+.code,
+.prismjs,
+[class*="code"],
+[class*="hljs"],
+.bash,
+.sh,
+.python,
+.javascript,
+.typescript,
+.go,
+.java,
+.csharp,
+.cpp,
+.c,
+kbd,
+.terminal,
+.console {
+    font-family: 'Courier New', Courier, 'Consolas', 'Monaco', monospace !important;
+}
+
+.tooltip code,
+.popover code {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+
+.emoji,
+.emoji-picker,
+.reaction,
+.emoji-reaction {
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', VazirmatnNL, sans-serif !important;
+}
+
+
+a,
+a *,
+.link,
+.linked {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.reaction,
+.reaction-emoji,
+.reaction-count,
+.reaction-row {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.file-preview,
+.file-name,
+.file-info,
+.file-container {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.status,
+.presence-indicator,
+.online-status,
+.user-status {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.channel-topic,
+.channel-description,
+.channel-header-description {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.member-list,
+.member-item,
+.member-name,
+.members-container {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.thread,
+.thread-footer,
+.reply,
+.reply-item,
+.reply-container {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.timestamp,
+.time,
+.date-time,
+.date-separator {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.editing,
+.editing-mode,
+.message-edit,
+.edit-container {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.emoji-picker__container,
+.emoji-category,
+.emoji-category-title {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.team-switcher,
+.teams,
+.team-menu,
+.team-item {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.toolbar,
+.top-toolbar,
+.bottom-toolbar,
+.tool-bar {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.help-text,
+.hint,
+.small,
+.text-muted,
+.text-secondary {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+::placeholder {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
+}
+
+
+.theme--light,
+.theme--dark,
+.theme--custom {
     font-family: VazirmatnNL, 'Open Sans', sans-serif !important;
 }
