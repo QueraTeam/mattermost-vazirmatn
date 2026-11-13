@@ -1,8 +1,7 @@
 import manifest from './manifest';
-import './style.css';
+import { watchFonts } from './fonts';
 
 class MattermostVazirmatnPlugin {
-  // eslint-disable-next-line class-methods-use-this
   initialize(registry, store) {
     const state = store.getState();
     const siteURL = (
@@ -26,6 +25,14 @@ class MattermostVazirmatnPlugin {
       document.fonts.add(loadedFace);
       console.log('VazirmatnNL font loaded.');
     });
+
+    this.unwatchFonts = watchFonts();
+  }
+
+  uninitialize() {
+    if (this.unwatchFonts) {
+      this.unwatchFonts();
+    }
   }
 }
 

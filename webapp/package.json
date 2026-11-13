@@ -1,6 +1,6 @@
 {
   "name": "mattermost-vazirmatn",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Changes Mattermost font to Vazirmatn.",
   "main": "src/index.js",
   "scripts": {
