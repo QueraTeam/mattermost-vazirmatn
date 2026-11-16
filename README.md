@@ -53,11 +53,7 @@ including their genuine italic faces.
 
 This is a deliberate compromise: Persian italic text outside these CSS rules
 can still use the upright italic aliases. The stylesheet stays small rather
-than promising synthesized italics for every UI component. Its six referenced
-SCSS files were checked against Mattermost `11.11.0`, latest release `12.1.0`
-and `master` on November 16, 2026. Source comments pin `v12.1.0`; the obsolete
-channel-header links rule and forced Metropolis channel-intro popover rule
-have been removed.
+than promising synthesized italics for every UI component.
 
 ### Disable and cleanup
 
