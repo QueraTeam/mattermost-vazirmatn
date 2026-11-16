@@ -34,6 +34,7 @@ module.exports = {
     },
     module: {
         rules: [
+            {test: /\.css$/, type: 'asset/source'},
             {
                 test: /\.[jt]s$/,
                 exclude: /node_modules/,
@@ -41,10 +42,6 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {cacheDirectory: true},
                 },
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
             },
         ],
     },
