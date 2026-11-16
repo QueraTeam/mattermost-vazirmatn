@@ -2,14 +2,10 @@
     "id": "ir.quera.mattermost-vazirmatn",
     "name": "Mattermost Vazirmatn",
     "description": "Changes Mattermost font to Vazirmatn.",
-    "version": "1.0.2",
+    "homepage_url": "https://github.com/QueraTeam/mattermost-vazirmatn",
+    "support_url": "https://github.com/QueraTeam/mattermost-vazirmatn/issues",
     "min_server_version": "5.12.0",
     "webapp": {
         "bundle_path": "webapp/dist/main.js"
-    },
-    "settings_schema": {
-        "header": "",
-        "footer": "",
-        "settings": []
     }
 }

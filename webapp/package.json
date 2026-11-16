@@ -1,29 +1,24 @@
 {
-  "name": "mattermost-vazirmatn",
-  "version": "1.0.2",
-  "description": "Changes Mattermost font to Vazirmatn.",
-  "main": "src/index.js",
+  "private": true,
   "scripts": {
     "build": "webpack --mode=production",
     "build:watch": "webpack --mode=production --watch",
     "debug": "webpack --mode=none",
     "debug:watch": "webpack --mode=development --watch",
-    "lint": "eslint --ignore-pattern node_modules --ignore-pattern dist --ext .js --ext .jsx --ext tsx --ext ts . --quiet --cache",
-    "fix": "eslint --ignore-pattern node_modules --ignore-pattern dist --ext .js --ext .jsx --ext tsx --ext ts . --quiet --fix --cache",
-    "check-types": "",
-    "test": ""
+    "lint": "eslint --ext .js . --quiet --cache",
+    "fix": "eslint --ext .js . --quiet --fix --cache",
+    "test": "node --test tests/*.test.cjs"
   },
-  "author": "Mohammad Javad Naderi",
-  "license": "",
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "babel-loader": "^9.1.3",
-    "css-loader": "^6.8.1",
-    "eslint": "^8.45.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "@babel/core": "7.29.7",
+    "@babel/preset-env": "7.29.7",
+    "babel-loader": "10.1.1",
+    "css-loader": "7.1.5",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.32.0",
+    "style-loader": "4.0.0",
+    "webpack": "5.112.2",
+    "webpack-cli": "6.0.1"
   }
 }
