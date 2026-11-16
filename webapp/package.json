@@ -5,20 +5,20 @@
     "build:watch": "webpack --mode=production --watch",
     "debug": "webpack --mode=none",
     "debug:watch": "webpack --mode=development --watch",
-    "lint": "eslint --ext .js . --quiet --cache",
-    "fix": "eslint --ext .js . --quiet --fix --cache",
+    "lint": "eslint . --quiet --cache",
+    "fix": "eslint . --quiet --fix --cache",
     "test": "node --test tests/*.test.cjs"
   },
   "devDependencies": {
-    "@babel/core": "7.29.7",
-    "@babel/preset-env": "7.29.7",
+    "@babel/core": "8.1.2",
+    "@babel/preset-env": "8.0.7",
+    "@eslint/js": "10.0.1",
     "babel-loader": "10.1.1",
     "css-loader": "7.1.5",
-    "eslint": "8.57.1",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.32.0",
+    "eslint": "10.15.0",
+    "globals": "17.14.0",
     "style-loader": "4.0.0",
     "webpack": "5.112.2",
-    "webpack-cli": "6.0.1"
+    "webpack-cli": "7.3.1"
   }
 }

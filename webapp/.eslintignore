@@ -1,5 +1,0 @@
-node_modules
-dist
-src/manifest.ts
-webpack.config.js
-babel.config.js
